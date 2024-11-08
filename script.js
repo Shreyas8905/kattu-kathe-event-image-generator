@@ -1,5 +1,5 @@
 const totalImages = 40;
-const imageFolder = 'images/';
+const imageFolder = '';
 
 document.getElementById('randomImageBtn').addEventListener('click', () => {
     let cycleInterval;  // To store the interval cycling images
