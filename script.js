@@ -2,7 +2,7 @@ const totalImages = 40;
 const imageFolder = 'images/';
 
 document.getElementById('randomImageBtn').addEventListener('click', () => {
-    let cycleInterval;  // To store the interval cycling images
+    let cycleInterval;
     const randomImageElement = document.getElementById('randomImage');
     let counter = 0;
     cycleInterval = setInterval(() => {
