@@ -9,7 +9,7 @@ document.getElementById('randomImageBtn').addEventListener('click', () => {
         const cycleImage = `${imageFolder}image${(counter % totalImages) + 1}.jpg`;
         randomImageElement.src = cycleImage;
         counter++;
-    }, 10);
+    }, 1);
     setTimeout(() => {
         clearInterval(cycleInterval);
         const finalRandomIndex = Math.floor(Math.random() * totalImages) + 1;
